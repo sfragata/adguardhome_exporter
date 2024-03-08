@@ -4,8 +4,8 @@
       {
         "builtIn": 1,
         "datasource": {
-          "type": "prometheus",
-          "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+          "type": "prometheus"
+          
         },
         "enable": true,
         "hide": true,
@@ -27,8 +27,8 @@
     {
       "collapsed": false,
       "datasource": {
-        "type": "prometheus",
-        "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+        "type": "prometheus"
+        
       },
       "gridPos": {
         "h": 1,
@@ -41,8 +41,8 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+            "type": "prometheus"
+            
           },
           "refId": "A"
         }
@@ -52,8 +52,8 @@
     },
     {
       "datasource": {
-        "type": "prometheus",
-        "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+        "type": "prometheus"
+        
       },
       "fieldConfig": {
         "defaults": {
@@ -129,8 +129,8 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+            "type": "prometheus"
+            
           },
           "editorMode": "code",
           "exemplar": false,
@@ -171,8 +171,8 @@
     },
     {
       "datasource": {
-        "type": "prometheus",
-        "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+        "type": "prometheus"
+        
       },
       "fieldConfig": {
         "defaults": {
@@ -248,8 +248,8 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+            "type": "prometheus"
+            
           },
           "editorMode": "code",
           "exemplar": false,
@@ -290,8 +290,8 @@
     },
     {
       "datasource": {
-        "type": "prometheus",
-        "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+        "type": "prometheus"
+        
       },
       "fieldConfig": {
         "defaults": {
@@ -353,8 +353,8 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+            "type": "prometheus"
+            
           },
           "editorMode": "code",
           "expr": "adguard_stats{instance=~\"$node\",name=\"avg_processing_time\"}",
@@ -372,8 +372,8 @@
     },
     {
       "datasource": {
-        "type": "prometheus",
-        "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+        "type": "prometheus"
+        
       },
       "fieldConfig": {
         "defaults": {
@@ -435,8 +435,8 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+            "type": "prometheus"
+            
           },
           "editorMode": "code",
           "expr": "adguard_stats{name=\"num_dns_queries\", instance=\"$node\"}",
@@ -454,8 +454,8 @@
     },
     {
       "datasource": {
-        "type": "prometheus",
-        "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+        "type": "prometheus"
+        
       },
       "fieldConfig": {
         "defaults": {
@@ -517,8 +517,8 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+            "type": "prometheus"
+            
           },
           "editorMode": "code",
           "expr": "adguard_stats{name=\"num_dns_queries\", instance=\"$node\"}",
@@ -536,8 +536,8 @@
     },
     {
       "datasource": {
-        "type": "prometheus",
-        "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+        "type": "prometheus"
+        
       },
       "fieldConfig": {
         "defaults": {
@@ -599,8 +599,8 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+            "type": "prometheus"
+            
           },
           "editorMode": "code",
           "expr": "adguard_stats{instance=~\"$node\",name=\"num_blocked_filtering\"} / ignoring(name) adguard_stats{instance=~\"$node\",name=\"num_dns_queries\"} * 100",
@@ -618,8 +618,8 @@
     },
     {
       "datasource": {
-        "type": "prometheus",
-        "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+        "type": "prometheus"
+        
       },
       "fieldConfig": {
         "defaults": {
@@ -682,8 +682,8 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+            "type": "prometheus"
+            
           },
           "editorMode": "code",
           "expr": "adguard_top_queried_domains{instance=~\"$node\"}",
@@ -701,8 +701,8 @@
     },
     {
       "datasource": {
-        "type": "prometheus",
-        "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+        "type": "prometheus"
+        
       },
       "fieldConfig": {
         "defaults": {
@@ -765,8 +765,8 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+            "type": "prometheus"
+            
           },
           "editorMode": "code",
           "expr": "adguard_top_blocked_domains{instance=~\"$node\"}",
@@ -784,8 +784,8 @@
     },
     {
       "datasource": {
-        "type": "prometheus",
-        "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+        "type": "prometheus"
+        
       },
       "fieldConfig": {
         "defaults": {
@@ -837,8 +837,8 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+            "type": "prometheus"
+            
           },
           "editorMode": "code",
           "expr": "sum(adguard_filtering_status{instance=~\"$node\"})",
@@ -856,8 +856,8 @@
     },
     {
       "datasource": {
-        "type": "prometheus",
-        "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+        "type": "prometheus"
+        
       },
       "fieldConfig": {
         "defaults": {
@@ -917,8 +917,8 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+            "type": "prometheus"
+            
           },
           "editorMode": "code",
           "exemplar": false,
@@ -959,8 +959,8 @@
     },
     {
       "datasource": {
-        "type": "prometheus",
-        "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+        "type": "prometheus"
+        
       },
       "fieldConfig": {
         "defaults": {
@@ -1020,8 +1020,8 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+            "type": "prometheus"
+            
           },
           "editorMode": "code",
           "exemplar": false,
@@ -1062,8 +1062,8 @@
     },
     {
       "datasource": {
-        "type": "prometheus",
-        "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+        "type": "prometheus"
+        
       },
       "fieldConfig": {
         "defaults": {
@@ -1144,8 +1144,8 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+            "type": "prometheus"
+            
           },
           "editorMode": "code",
           "expr": "adguard_dns_query_types{instance=~\"$node\"}",
@@ -1161,8 +1161,8 @@
     },
     {
       "datasource": {
-        "type": "prometheus",
-        "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+        "type": "prometheus"
+        
       },
       "fieldConfig": {
         "defaults": {
@@ -1260,8 +1260,8 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+            "type": "prometheus"
+            
           },
           "editorMode": "code",
           "expr": "adguard_stats{instance=~\"$node\",name=\"num_dns_queries\"}",
@@ -1279,8 +1279,8 @@
     },
     {
       "datasource": {
-        "type": "prometheus",
-        "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+        "type": "prometheus"
+        
       },
       "fieldConfig": {
         "defaults": {
@@ -1343,8 +1343,8 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+            "type": "prometheus"
+            
           },
           "editorMode": "code",
           "expr": "adguard_dns_query_types{instance=~\"$node\"}",
@@ -1362,8 +1362,8 @@
     },
     {
       "datasource": {
-        "type": "prometheus",
-        "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+        "type": "prometheus"
+        
       },
       "fieldConfig": {
         "defaults": {
@@ -1426,8 +1426,8 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+            "type": "prometheus"
+            
           },
           "editorMode": "code",
           "expr": "adguard_top_clients{instance=~\"$node\"}",
@@ -1445,8 +1445,8 @@
     },
     {
       "datasource": {
-        "type": "prometheus",
-        "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+        "type": "prometheus"
+        
       },
       "fieldConfig": {
         "defaults": {
@@ -1544,8 +1544,8 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+            "type": "prometheus"
+            
           },
           "editorMode": "code",
           "expr": "adguard_stats{instance=~\"$node\",name=\"num_blocked_filtering\"}",
@@ -1563,8 +1563,8 @@
     },
     {
       "datasource": {
-        "type": "prometheus",
-        "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+        "type": "prometheus"
+        
       },
       "fieldConfig": {
         "defaults": {
@@ -1642,8 +1642,8 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+            "type": "prometheus"
+            
           },
           "editorMode": "code",
           "exemplar": false,
@@ -1684,8 +1684,8 @@
     },
     {
       "datasource": {
-        "type": "prometheus",
-        "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+        "type": "prometheus"
+        
       },
       "fieldConfig": {
         "defaults": {
@@ -1770,8 +1770,8 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+            "type": "prometheus"
+            
           },
           "editorMode": "code",
           "exemplar": false,
@@ -1813,8 +1813,8 @@
     },
     {
       "datasource": {
-        "type": "prometheus",
-        "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+        "type": "prometheus"
+        
       },
       "fieldConfig": {
         "defaults": {
@@ -1912,8 +1912,8 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+            "type": "prometheus"
+            
           },
           "editorMode": "code",
           "expr": "adguard_stats{instance=~\"$node\",name=\"num_blocked_filtering\"} / ignoring(name) adguard_stats{instance=~\"$node\",name=\"num_dns_queries\"} * 100",
@@ -1931,8 +1931,8 @@
     },
     {
       "datasource": {
-        "type": "prometheus",
-        "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+        "type": "prometheus"
+        
       },
       "fieldConfig": {
         "defaults": {
@@ -1996,8 +1996,8 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+            "type": "prometheus"
+            
           },
           "editorMode": "code",
           "exemplar": false,
@@ -2040,8 +2040,8 @@
     },
     {
       "datasource": {
-        "type": "prometheus",
-        "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+        "type": "prometheus"
+        
       },
       "fieldConfig": {
         "defaults": {
@@ -2197,8 +2197,8 @@
       "targets": [
         {
           "datasource": {
-            "type": "prometheus",
-            "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+            "type": "prometheus"
+            
           },
           "editorMode": "code",
           "exemplar": false,
@@ -2263,8 +2263,8 @@
           "value": "192.168.1.31:9311"
         },
         "datasource": {
-          "type": "prometheus",
-          "uid": "cd20db81-7657-4be5-8197-02ff6f85ef2e"
+          "type": "prometheus"
+          
         },
         "definition": "label_values(adguard_exporter_build_info,instance)",
         "hide": 0,
