@@ -44,7 +44,7 @@ func main() {
 	flaggy.Int(&adguardPort, "p", "port", "Adguard home port")
 
 	var adguardToken = os.Getenv("ADGUARD_HOME_TOKEN") // username:password in base64
-	flaggy.String(&adguardToken, "t", "token", "Adguard home token (if ADGUARD_HOME_TOKEN env variable is set, don't need to pass it)")
+	flaggy.String(&adguardToken, "t", "token", "Adguard home token (if ADGUARD_HOME_TOKEN env variable is set, don't need to pass it). username:password in base64 format")
 
 	var metricsPort = "9311"
 	flaggy.String(&metricsPort, "l", "listen-address", "Adguard home exporter metrics port")
