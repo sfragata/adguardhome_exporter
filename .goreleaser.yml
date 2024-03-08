@@ -35,7 +35,7 @@ brews:
     # Default to project name
     name: adguardhome_exporter
 
-    tap:
+    repository:
       owner: sfragata
       name: homebrew-tap
 
