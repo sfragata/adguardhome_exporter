@@ -1,0 +1,113 @@
+@token=<token_here>
+@base_url=http://192.168.1.44/control
+
+GET {{base_url}}/status
+Accept: application/json
+Authorization: Basic {{token}}
+###
+
+GET {{base_url}}/stats
+Accept: application/json
+Authorization: Basic {{token}}
+###
+
+GET {{base_url}}/stats/config
+Accept: application/json
+Authorization: Basic {{token}}
+###
+
+GET {{base_url}}/access/list
+Accept: application/json
+Authorization: Basic {{token}}
+###
+
+GET {{base_url}}/querylog
+Accept: application/json
+Authorization: Basic {{token}}
+###
+
+GET {{base_url}}/clients
+Accept: application/json
+Authorization: Basic {{token}}
+###
+
+GET {{base_url}}/clients/find?ip0=192.168.1.1
+Accept: application/json
+Authorization: Basic {{token}}
+###
+
+POST {{base_url}}/version.json
+Accept: application/json
+Authorization: Basic {{token}}
+###
+
+GET {{base_url}}/stats_info
+Accept: application/json
+Authorization: Basic {{token}}
+###
+
+GET {{base_url}}/tls/status
+Accept: application/json
+Authorization: Basic {{token}}
+###
+
+GET {{base_url}}/dhcp/status
+Accept: application/json
+Authorization: Basic {{token}}
+###
+
+GET {{base_url}}/safebrowsing/status
+Accept: application/json
+Authorization: Basic {{token}}
+###
+
+GET {{base_url}}/filtering/status
+Accept: application/json
+Authorization: Basic {{token}}
+###
+
+GET {{base_url}}/stats/config
+Accept: application/json
+Authorization: Basic {{token}}
+###
+
+GET {{base_url}}/dns_info
+Accept: application/json
+Authorization: Basic {{token}}
+###
+
+GET {{base_url}}/safesearch/status
+Accept: application/json
+Authorization: Basic {{token}}
+###
+
+GET {{base_url}}/dhcp/interfaces
+Accept: application/json
+Authorization: Basic {{token}}
+###
+
+GET {{base_url}}/blocked_services/all
+Accept: application/json
+Authorization: Basic {{token}}
+###
+
+GET {{base_url}}/profile
+Accept: application/json
+Authorization: Basic {{token}}
+###
+
+GET {{base_url}}/querylog?limit=20&response_status=all
+Accept: application/json
+Authorization: Basic {{token}}
+###
+
+GET {{base_url}}/querylog_info
+Accept: application/json
+Authorization: Basic {{token}}
+###
+
+GET {{base_url}}/querylog/config
+Accept: application/json
+Authorization: Basic {{token}}
+###
+

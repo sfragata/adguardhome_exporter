@@ -1,0 +1,39 @@
+// topQueriedDomain represents a queried domain and the count of times it was queried
+type topQueriedDomain struct {
+	Domain string `json:"domain"`
+	Count  int    `json:"count"`
+}
+
+// topClient represents a client with its IP and the number of queries
+type topClient struct {
+	IP         string `json:"ip"`
+	QueryCount int    `json:"query_count"`
+}
+
+// topBlockedDomain represents a blocked domain and the count of times it was blocked
+type topBlockedDomain struct {
+	Domain string `json:"domain"`
+	Count  int    `json:"count"`
+}
+
+// topUpstreamResponse represents an upstream and the count of responses
+type topUpstreamResponse struct {
+	Upstream string `json:"upstream"`
+	Count    int    `json:"count"`
+}
+
+// topUpstreamAvgTime represents an upstream and the average response time
+type topUpstreamAvgTime struct {
+	Upstream string  `json:"upstream"`
+	AvgTime  float64 `json:"avg_time"`
+}
+
+// topQueries represents the structure of the JSON
+type topQueries struct {
+	// TimeUnits             string                `json:"time_units"`
+	TopQueriedDomains     []topQueriedDomain    `json:"top_queried_domains"`
+	TopClients            []topClient           `json:"top_clients"`
+	TopBlockedDomains     []topBlockedDomain    `json:"top_blocked_domains"`
+	TopUpstreamsResponses []topUpstreamResponse `json:"top_upstreams_responses"`
+	TopUpstreamsAvgTime   []topUpstreamAvgTime  `json:"top_upstreams_avg_time"`
+}
