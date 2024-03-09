@@ -36,7 +36,7 @@ jobs:
           go get -v -u ./...
           echo "go test for ${{ matrix.os }} and version ${{ matrix.go_version }}".
           go test -v ./... -cover -race
-          go build -v -o ${{ github.workspace }}/dist/plex_exporter main.go
+          go build -v -o ${{ github.workspace }}/dist/adguardhome_exporter main.go
       - name: upload artifacts
         uses: actions/upload-artifact@v4
         with: 
