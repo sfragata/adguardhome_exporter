@@ -22,12 +22,12 @@ get latest release [here](https://github.com/sfragata/adguardhome_exporter/relea
 ```
 adguardhome_exporter - Prometheus exporter for Adguard home
 
-  Flags: 
+  Flags:
        --version          Displays the program version string.
     -h --help             Displays help with available flag, subcommand, and positional value parameters.
     -H --host             Adguard home address (default: 127.0.0.1)
     -p --port             Adguard home port (default: 80)
-    -t --token            Adguard home token (if ADGUARD_HOME_TOKEN env variable is set, don't need to pass it)
+    -t --token            Adguard home token (if ADGUARD_HOME_TOKEN env variable is set, don't need to pass it). username:password in base64 format
     -l --listen-address   Adguard home exporter metrics port (default: 9311)
 ```    
 ## Output
